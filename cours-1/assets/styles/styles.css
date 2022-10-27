@@ -1,0 +1,68 @@
+/* GENERIC */
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/* ELEMENTS */
+
+body {
+    margin: 0;
+    padding: 8vw;
+}
+
+main {
+    margin-top: 50px;
+}
+
+h2 + div {
+    margin-top: 25px;
+}
+
+div + div,
+div + button {
+    margin-top: 15px;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+p + p {
+    margin-top: 10px;
+}
+
+
+/* OBJECTS */
+
+.error {
+    color: red;
+}
+
+.sent {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+
+/* COMPONENTS */
+
+.inscription + .inscription {
+    margin-top: 50px;
+}
+
+.inscription__wrapper {
+    display: flex;
+}
+
+.inscription__form,
+.inscription__detail {
+    width: 50%;
+}
